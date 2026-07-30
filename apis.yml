@@ -1,8 +1,25 @@
 aid: kenbi
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kenbi.png
 name: Kenbi
-description: 'Kenbi is a company surfaced as a portfolio company of partech and added to the API Evangelist
-  network as a stub for enrichment. Sector: Healthcare. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Kenbi is a German healthcare organization focused on nursing education and workforce
+  development, operating through two divisions. Kenbi Academy delivers continuing professional
+  development for care workers with 100+ ZFU-certified courses recognized by all German health
+  insurers and available nationwide, spanning nursing service management, quality assurance, wound
+  care, and instructor training. Kenbi Campus runs vocational nursing programs in Berlin and Hamburg,
+  including a three-year registered nurse generalist program and an 18-month nursing assistant
+  curriculum. Originally surfaced as a portfolio company of Partech and added to the API Evangelist
+  network for enrichment; no public developer program, API, or documentation surface was found.'
 url: https://raw.githubusercontent.com/api-evangelist/kenbi/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Healthcare
+- Nursing
+- Education
+- Training
+- Germany
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +46,12 @@ maintainers:
 common:
 - type: Website
   url: https://kenbi.de/
+- type: PrivacyPolicy
+  url: https://www.kenbi-akademie.com/datenschutz/
+- type: TermsOfService
+  url: https://www.kenbi-akademie.com/agb/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
